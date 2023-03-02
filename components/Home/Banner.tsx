@@ -16,7 +16,7 @@ const Banner = () => {
               placeholder="Enter Your Email Id"
               type="text"
             />
-            <button className="bg-primary py-2 px-8 text-off-white">Subscribe</button>
+            <button className="bg-primary py-2 px-8 text-off-white hover:bg-sub-primary">Subscribe</button>
           </div>
         </div>
 
