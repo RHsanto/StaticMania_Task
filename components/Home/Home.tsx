@@ -1,11 +1,21 @@
-import About from "./About";
+import Articles from "../Articles/Articles";
+import Footer from "../common/Footer";
+import Navbar from "../common/Navbar";
+import Sponsor from "../Sponsors/Sponsor";
+import Banner from "./Banner";
+import Podcast from "./Podcast";
+
 
 
 const HomePage = () => {
   return (
     <div>
-      <h1 className="">Home Page</h1>
-      <About/>
+     <Navbar/>
+     <Banner/>
+     <Podcast/>
+     <Articles/>
+     <Sponsor/>
+     <Footer/>
     </div>
   );
 };
