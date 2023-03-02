@@ -5,7 +5,7 @@ const Banner = () => {
         {/* banner content */}
         <div className="lg:px-12">
           <h1 className="leading-[52px] ">Become The Hero Of Your Own Story</h1>
-          <p className="leading-7 py-5">
+          <p className=" py-5">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
             invidunt ut labore et dolore magna aliquyam erat.
           </p>

@@ -30,7 +30,7 @@ body{
 
   }
   p{
-    @apply text-base font-normal;
+    @apply text-base font-normal leading-7;
     
   }
 }
