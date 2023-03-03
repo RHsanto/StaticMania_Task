@@ -12,11 +12,11 @@ const Banner = () => {
           {/* email input */}
           <div className="flex">
             <input
-              className="py-2 px-8 outline-none bg-off-white"
+              className="py-3 px-8 outline-none bg-off-white"
               placeholder="Enter Your Email Id"
               type="text"
             />
-            <button className="bg-primary py-2 px-8 text-off-white hover:bg-sub-primary">Subscribe</button>
+            <button className="bg-primary py-3 px-8 text-off-white hover:bg-sub-primary">Subscribe</button>
           </div>
         </div>
 
