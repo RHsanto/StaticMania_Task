@@ -39,15 +39,18 @@ const Footer = () => {
 
             <div className="mt-10 lg:mt-0">
               <h4 className="mb-8">Pages</h4>
-              <p className="pb-4">Home</p>
+              <p className="pb-4">
+                <Link href='/'>Home</Link>
+              </p>
               <p className="pb-4">Podcast</p>
               <p className="pb-4">Host</p>
               <p>Blog</p>
             </div>
             <div className="mt-10 lg:mt-0">
               <h4 className="mb-8">Reach Us</h4>
-              <p className="pb-4">Contact</p>
-              <p>About</p>
+              <p className="pb-4">
+                <Link href='/contact'>Contact</Link> </p>
+              <p><Link href='/about'>About</Link></p>
             </div>
             <div className="mt-10 lg:mt-0">
               <h4 className="mb-8">Subscribe</h4>
