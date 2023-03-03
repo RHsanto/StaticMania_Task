@@ -3,7 +3,7 @@ import { allArticle } from "../AllContent/Content";
 
 const Articles = () => {
   return (
-    <div className="container mx-auto mt-32">
+    <div className="container mx-auto my-32">
       <div className="grid lg:grid-cols-3 justify-center gap-5 ">
         <div className="bg-off-white overflow-hidden m-10 lg:m-0">
           <div className="art-con p-10 ">
