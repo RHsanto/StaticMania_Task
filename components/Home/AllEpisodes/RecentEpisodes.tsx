@@ -20,8 +20,8 @@ const RecentEpisodes = () => {
           </button>
         </div>
       </div>
-      {/* card items */}
-      <div className="grid lg:grid-cols-3 justify-center gap-10">
+   {/* card items */}
+      <div className="grid lg:grid-cols-3 justify-center gap-5">
       {allEpisode?.map((data=>
         <div key={data?.id} className="card mb-10 px-10 lg:px-0">
         <img className="w-full" src={data?.img} alt="img" />
