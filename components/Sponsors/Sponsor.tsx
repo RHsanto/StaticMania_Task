@@ -2,7 +2,7 @@
 
 const Sponsor = () => {
   return (
-    <div className="container mx-auto bg-primary text-center text-white p-16">
+    <div className="relative z-50 container mx-auto bg-primary text-center text-white p-20">
       <h2>Our Sponsors</h2>
       <div className="grid lg:grid-cols-5 grid-cols-2 pt-16 gap-10">
         <img src="/Logo.png" alt="logo1" />
