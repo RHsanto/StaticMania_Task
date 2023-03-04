@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Link from "next/link";
 import { BsFillPlayFill } from "react-icons/bs";
 import { FaMicrophone } from "react-icons/fa";
 import { allEpisode } from "../../AllContent/Content";
@@ -14,8 +15,9 @@ const RecentEpisodes = () => {
           </p>
         </div>
         <div>
-          <button className="mt-5 lg:mt-0 bg-primary text-off-white py-3 px-8">
-            See All Episodes
+          <button className="mt-5 lg:mt-0 bg-primary
+           text-off-white py-3 px-8 hover:bg-sub-primary">
+            <Link href='/episode'>See All Episodes</Link>
           </button>
         </div>
       </div>
